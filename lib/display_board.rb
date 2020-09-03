@@ -3,11 +3,11 @@
 
 board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 def display_board
-    puts "board [0]   |   |   "
-    puts "-----------"
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
-display_board
+    puts "-----------"
+    puts "   |   |   "
+display_board {board[0]}
 end
 
