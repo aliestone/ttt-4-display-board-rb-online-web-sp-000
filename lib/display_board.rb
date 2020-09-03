@@ -9,6 +9,6 @@ def display_board
     puts "-----------"
     puts "   |   |   "
   end
-display_board {board[0]}
+display_board (board)
 
 
